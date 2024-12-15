@@ -7,6 +7,7 @@ import (
 	"github.com/gogf/gf/v2/os/gcmd"
 	"star/internal/controller/account"
 	"star/internal/controller/users"
+	"star/internal/controller/wrods"
 	"star/internal/logic/middleware"
 )
 
@@ -23,7 +24,9 @@ var (
 					group.Bind(users.NewV1())
 					group.Group("/", func(group *ghttp.RouterGroup) {
 						group.Middleware(middleware.Auth)
-						group.Bind(account.NewV1())
+						group.Bind(account.NewV1(),
+							wrods.NewV1(),
+						)
 					})
 				})
 			})

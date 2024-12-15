@@ -55,3 +55,11 @@ func Info(ctx context.Context) (user *entity.Users, err error) {
 		return nil, errors.New("token无效")
 	}
 }
+
+func GetUid(ctx context.Context) (uint, error) {
+	user, err := Info(ctx)
+	if err != nil {
+		return 0, err
+	}
+	return user.Id, nil
+}
