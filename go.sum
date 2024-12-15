@@ -23,6 +23,8 @@ github.com/gogf/gf/contrib/drivers/mysql/v2 v2.8.2 h1:thK4DZT0irDrnhIxkap5JqBuBI
 github.com/gogf/gf/contrib/drivers/mysql/v2 v2.8.2/go.mod h1:Vg7XaiwsQ27YmpDqzwCQ+yt10KntTvcP9iOoFL5DF40=
 github.com/gogf/gf/v2 v2.8.2 h1:4k641rn+hV1COAKygqsqcTm8+lDTkcO8HQ4iBv/uTFs=
 github.com/gogf/gf/v2 v2.8.2/go.mod h1:n++xPYGUUMadw6IygLEgGZqc6y6DRLrJKg5kqCrPLWY=
+github.com/golang-jwt/jwt/v5 v5.2.1 h1:OuVbFODueb089Lh128TAcimifWaLhJwVflnrgM17wHk=
+github.com/golang-jwt/jwt/v5 v5.2.1/go.mod h1:pqrtFR0X4osieyHYxtmOUWsAWrfe1Q5UVIyoH402zdk=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
