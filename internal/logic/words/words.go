@@ -39,6 +39,7 @@ func CheckWord(ctx context.Context, in *model.WordInput) error {
 }
 
 // checkWord 在更新时不检查自身
+// new function
 func checkWord(ctx context.Context, id uint, in *model.WordInput) error {
 	db := dao.Words.Ctx(ctx).Where("uid", in.Uid).Where("word", in.Word)
 	if id > 0 {
